@@ -1,0 +1,75 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+      margin: 0;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+  header {
+    /* height: 400px; */
+    background: #708090;
+    color: white;
+}
+ .logo {
+    width: 50px;
+}
+.icon {
+    margin-right: 15%;
+}
+.card > img {
+    /* width: 50%; */
+    padding: 0 25%;
+}
+.play {
+    width: 2%;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer {
+    background: #708090;
+
+}
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  @media (max-width: 575.98px) {
+    .foot {
+        display: block;
+        text-align: center;
+    }
+    ul {
+        justify-content: center;
+    }
+   }
