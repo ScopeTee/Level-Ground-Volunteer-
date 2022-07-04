@@ -72,4 +72,13 @@ ul{
     ul {
         justify-content: center;
     }
+    header > nav > .nav-blk {
+        display: block;
+    }
+    .nav-blk > ul {
+        display: block;
+    }
+    .play {
+        width: 5%;
+    }
    }
